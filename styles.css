@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cookie&family=Source+Serif+Pro&display=swap');
+
+
+body {
+    color: #2F3061;
+    background-color: #FDF0D5;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.egoistic-text {
+    color: #D81E5B;
+}
+
+header{
+    text-align: center;
+    font-family: cookie, cursive;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: cookie, cursive;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.tasks {
+    width: 50%;
+    margin: 35px auto;
+}
+
+button {
+    margin: 5px;
+    font-family: cookie, cursive;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    transition: all 0.4s;
+    display: ;
+}
+
+
+.delete {
+    background-color: #D81E5B;
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    height: 30px;
+    display: flex;
+    margin: 5px;
+    background-color: #FDF0D5;
+    border: 2px solid #2F3061;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+input:focus {
+    outline: none;
+    border: 3.5px solid #2F3061;
+}
+.enter {
+    background-color: #2F3061;
+    color: white;
+    font-weight: bold;
+}
+
+li {
+    margin: 3px;
+    font-size: 1.5rem;
+}
