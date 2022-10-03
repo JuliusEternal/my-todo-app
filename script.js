@@ -66,6 +66,6 @@ let clickCount = 0
 enterBtn.addEventListener('click', () => {
   clickCount++
   if (clickCount === 5) {
-    alert('this button actually doesn\'t do anything. try clicking elsewhere idiot')
+    alert('this button actually doesn\'t do anything. try clicking elsewhere dummy')
   }
 })
